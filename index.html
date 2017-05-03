@@ -10,21 +10,66 @@
 </head>
 
 <body>
-  <header>I am the header
-   
-    <ul>
+  <header>
+    <ul class="top_menu">
       <li>
-        <a href="/">///</a>
+        <form>
+          <label for="date"></label>
+          <input type="date" min="1920-01-01" max="2019-01-01">
+        </form>
       </li>
       <li>
-        <a href="/">///</a>
+        <a href="/">роботи-рахунки</a>
       </li>
-    </ul>
-    
-    </header>
-<article>I am the main article Content is here</article>
-<nav>
-  <div class="layout">
+      <li>
+        <form>
+          <label for="date"></label>
+          <input type="date">
+        </form>
+      </li>
+      <li>
+        <form>
+          <label for="date"></label>
+          <input type="date">
+        </form>
+      </li>
+      <li>
+        <select>
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="vw">VW</option>
+          <option value="audi" selected>Audi</option>
+         </select>
+      </li>
+      <li>
+        <form>
+            <input type="text" placeholder="нова фірма">
+            <input id="submit" type="submit" value="Go">
+            
+        </form>
+      </li>
+      <li>
+         <select>
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="vw">VW</option>
+          <option value="audi" selected>Audi</option>
+         </select>
+      </li>
+      <li>
+       <select>
+         <option selected>A</option>
+          <option>B</option>
+          <option>C</option>
+          <option>D</option>
+         </select>
+      </li>
+     </ul>
+
+  </header>
+  <article>I am the main article Content is here</article>
+  <nav>
+    <div class="layout">
       <div class="menu">
         <span class="icon icon-menu"></span>
         <ul>
@@ -36,9 +81,11 @@
         </ul>
       </div>
     </div>
-    </nav>
-<aside>I am sidebar 2</aside>
-<footer><p><small>Copyright © 2017 All rights reserved.</small></p></footer>
+  </nav>
+  <aside>I am sidebar 2</aside>
+  <footer>
+    <p><small>Copyright © 2017 All rights reserved.</small></p>
+  </footer>
 
   <!-- <header>I am the header
     <ul>
@@ -73,8 +120,8 @@
   <p><small>Copyright © 2017 NRokicka.</small></p></footer>
 
     -->
-    
-    <script type="text/javascript" src="js/button.js"></script>
+
+  <script type="text/javascript" src="js/button.js"></script>
 </body>
 
 </html>

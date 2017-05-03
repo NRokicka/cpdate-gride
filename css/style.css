@@ -99,14 +99,10 @@
   display: none;
 }
 
-
 body {
   max-width: 1920px;
   display: grid;
-  grid: 
-  "h h h" 
-  "a b c" 
-  "f f f";
+  grid: "h h h" "a b c" "f f f";
   grid-template-columns: auto 1fr auto;
   justify-content: center;
   font-family: sans-serif;
@@ -149,6 +145,20 @@ footer {
   min-height: 5vh;
   padding: 10px;
   font-size: 0.8em;
+}
+
+.top_menu {
+  list-style-type: none;
+  list-style-position: inside;
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.top_menu li {
+  padding: 10px;
+  cursor: pointer;
 }
 
 
